@@ -5,6 +5,7 @@ import parser
 import requests
 from tqdm import tqdm
 import os
+import csv
 
 
 def download_file(url, file_name):
@@ -15,27 +16,35 @@ def download_file(url, file_name):
     handle.close()
 
 
-def main():
+def get_link_codigos(paginas = []):
     url = 'http://www.agricultura.pr.gov.br/modules/qas/categoria.php'
     session = HTMLSession()
     links = []
-    
-    #for page in range(1, 2, 1):
-    for page in range(1, 26, 1):
+
+    for page in paginas:
         print('pagina:', page)
+
         params = {
-            'cod_categoria': str(28),
-            'pagina': str(page)
+            'cod_categoria': '28',
+            'pagina': str(page),
+            'ordenacao': 'data',
+            'tipo_ordem': 'DESC',
+            'filtroTitulo': '',
+            'filtroDataIni': '1425401400',
+            'filtroDataFim': '1522682400'
         }
-        response = session.get(url, params=params)
         
+        response = session.get(url, params=params)
         if (response.status_code != 200):
+            print('erro no acesso a página: ', url, params)
             continue
         
+            print(response.html)
+
         try:
             table = response.html.find('#content > div.blockContent > table', first=True)
-        except parser.ParserError:
-            print('erro')
+        except Exception as e:
+            print('', e)
             continue
         
         try:
@@ -51,11 +60,16 @@ def main():
             if (l.startswith('aviso.php?codigo=')):
                 codigo = l[-4:]
                 codigos.append(codigo)
+    
+    return codigos            
 
+
+def get_link_planilhas(codigos = []):
     # agora que já tem os códigos, vai para a página para baixar o xls correspondente
     url = 'http://www.agricultura.pr.gov.br/modules/qas/aviso.php'
     planilhas = []
-    
+    session = HTMLSession()
+   
     for codigo in codigos:
         print('código:', codigo)
 
@@ -70,18 +84,28 @@ def main():
 
         try:
             links_page = response.html.links
-        except KeyError:
+            break
+        except Exception as e:
             links_page = []
-            print('erro')
+            print('erro', e)
             continue
 
         for link in links_page:
             if (link.endswith('_impressao.xls')):
+                # faz o append no csv da base
+                with open('urls.csv', 'a', newline='') as baseFile:
+                    fieldnames = ['url']
+                    writer = csv.DictWriter(baseFile, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONNUMERIC)
+                    row_inserted = { 'url': link }
+                    writer.writerow(row_inserted)
                 planilhas.append(link)
-
-
-    url = 'http://www.agricultura.pr.gov.br/modules/qas/'
     
+    return planilhas
+
+
+def download_planilhas(planilhas = []):
+    url = 'http://www.agricultura.pr.gov.br/modules/qas/'
+
     for planilha in planilhas:
         url_planilha = url+planilha
         print(url_planilha)
@@ -89,6 +113,19 @@ def main():
         path_file = os.path.join('downloads', name_file)
         if not os.path.exists(path_file):
             download_file(url_planilha, path_file)
+
+
+def main():
+    #paginas = list(range(1, 2, 1))
+    paginas = list(range(1, 26, 1))
+    codigos = get_link_codigos(paginas)
+    print(codigos)
+    print(len(codigos))
+    # agora que já tem os códigos, vai para a página para baixar o xls correspondente
+    planilhas = get_link_planilhas(codigos)
+    print(planilhas)
+    print(len(planilhas))
+    #download_planilhas(planilhas)
 
 
 if __name__ == '__main__':

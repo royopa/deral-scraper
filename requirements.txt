@@ -1,3 +1,11 @@
-# Included because many Paas's require a requirements.txt file in the project root
-# Just installs the production requirements.
--r requirements/prod.txt
+request
+pandas
+tqdm
+requests
+xlrd
+pyexcel
+pyexcel-xls
+coverage
+flask_script
+xlsxwriter
+requests_html
