@@ -6,6 +6,7 @@ import requests
 from tqdm import tqdm
 import os
 import csv
+import time
 
 
 def download_file(url, file_name):
@@ -30,11 +31,12 @@ def get_link_codigos(paginas = []):
             'ordenacao': 'data',
             'tipo_ordem': 'DESC',
             'filtroTitulo': '',
-            'filtroDataIni': '1425401400',
-            'filtroDataFim': '1522682400'
+            'filtroDataIni': '1425401400'
         }
         
         response = session.get(url, params=params)
+        time.sleep(2)
+
         if (response.status_code != 200):
             print('erro no acesso a página: ', url, params)
             continue
@@ -72,19 +74,14 @@ def get_link_planilhas(codigos = []):
    
     for codigo in codigos:
         print('código:', codigo)
-
-        params = {
-            'codigo': str(codigo)
-        }
-
+        params = { 'codigo': str(codigo) }
         response = session.get(url, params=params)
 
         if (response.status_code != 200):
-            continue        
+            continue
 
         try:
             links_page = response.html.links
-            break
         except Exception as e:
             links_page = []
             print('erro', e)
@@ -111,21 +108,26 @@ def download_planilhas(planilhas = []):
         print(url_planilha)
         name_file = url_planilha.split('/')[-1]
         path_file = os.path.join('downloads', name_file)
-        if not os.path.exists(path_file):
-            download_file(url_planilha, path_file)
+        if os.path.exists(path_file):
+            continue
+        download_file(url_planilha, path_file)
 
 
 def main():
     #paginas = list(range(1, 2, 1))
     paginas = list(range(1, 26, 1))
+    print(paginas)
     codigos = get_link_codigos(paginas)
-    print(codigos)
-    print(len(codigos))
+    
     # agora que já tem os códigos, vai para a página para baixar o xls correspondente
-    planilhas = get_link_planilhas(codigos)
-    print(planilhas)
-    print(len(planilhas))
-    #download_planilhas(planilhas)
+    if len(codigos) > 0:
+        print(len(codigos))
+        planilhas = get_link_planilhas(codigos)
+    
+
+    if len(planilhas) > 0:
+        print(len(planilhas))
+        download_planilhas(planilhas)
 
 
 if __name__ == '__main__':
