@@ -31,22 +31,20 @@ def get_link_codigos(paginas = []):
             'ordenacao': 'data',
             'tipo_ordem': 'DESC',
             'filtroTitulo': '',
-            'filtroDataIni': '1425401400'
+            'filtroDataIni': '1425401400',
+            'filtroDataFim': '1865401400'
         }
         
+        time.sleep(.2)
         response = session.get(url, params=params)
-        time.sleep(2)
 
         if (response.status_code != 200):
             print('erro no acesso a página: ', url, params)
             continue
-        
-            print(response.html)
-
         try:
             table = response.html.find('#content > div.blockContent > table', first=True)
         except Exception as e:
-            print('', e)
+            print('error', e)
             continue
         
         try:
@@ -57,12 +55,21 @@ def get_link_codigos(paginas = []):
             continue
 
     codigos = []
+    print(links)
     for link in links:
         for l in link:
             if (l.startswith('aviso.php?codigo=')):
                 codigo = l[-4:]
+                # faz o append no csv da base
+                with open('codigos.csv', 'a', newline='') as baseFile:
+                    fieldnames = ['codigo']
+                    writer = csv.DictWriter(baseFile, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONNUMERIC)
+                    row_inserted = { 'codigo': codigo }
+                    writer.writerow(row_inserted)
+                print(codigo)                
                 codigos.append(codigo)
     
+    print(codigos)
     return codigos            
 
 
@@ -75,6 +82,7 @@ def get_link_planilhas(codigos = []):
     for codigo in codigos:
         print('código:', codigo)
         params = { 'codigo': str(codigo) }
+        time.sleep(.1)
         response = session.get(url, params=params)
 
         if (response.status_code != 200):
@@ -93,9 +101,10 @@ def get_link_planilhas(codigos = []):
                 with open('urls.csv', 'a', newline='') as baseFile:
                     fieldnames = ['url']
                     writer = csv.DictWriter(baseFile, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONNUMERIC)
-                    row_inserted = { 'url': link }
+                    row_inserted = { 'url': 'http://www.agricultura.pr.gov.br/modules/qas/'+link }
                     writer.writerow(row_inserted)
                 planilhas.append(link)
+                download_planilhas([link])
     
     return planilhas
 
@@ -118,16 +127,20 @@ def main():
     paginas = list(range(1, 26, 1))
     print(paginas)
     codigos = get_link_codigos(paginas)
-    
+    print(codigos)
+
     # agora que já tem os códigos, vai para a página para baixar o xls correspondente
+    planilhas = []
     if len(codigos) > 0:
         print(len(codigos))
+        time.sleep(10)
         planilhas = get_link_planilhas(codigos)
     
-
+    print(planilhas)
     if len(planilhas) > 0:
         print(len(planilhas))
-        download_planilhas(planilhas)
+        time.sleep(.3)
+        #download_planilhas(planilhas)
 
 
 if __name__ == '__main__':
