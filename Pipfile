@@ -15,6 +15,7 @@ coverage = "*"
 flask-script = "*"
 xlsxwriter = "*"
 requests-html = "*"
+wget = "*"
 
 [dev-packages]
 
