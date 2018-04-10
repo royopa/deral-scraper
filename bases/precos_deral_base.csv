@@ -1,46 +1,750 @@
 dt_referencia;no_produto;no_indicador;vr_real
-2018-04-02;algod�o;Pesquisa descontinuada (Algod�o);0.00
-2018-04-02;arroz em casca;Pesquisa descontinuada (Arroz em casca sequeiro);0.00
-2018-04-02;arroz agulhinha;Arroz Agulhinha em casca tipo 1 sc 60 Kg;45.06
-2018-04-02;feij�o carioca;Feij�o Carioca tipo 1 sc 60 Kg;84.34
-2018-04-02;feij�o preto;Feij�o preto tipo 1 sc 60 Kg;102.96
-2018-04-02;milho;Milho amarelo tipo 1 sc 60 Kg;31.45
-2018-04-02;soja;Soja industrial tipo 1 sc 60 Kg;71.84
-2018-04-02;trigo;Trigo p�o PH 78 sc 60 Kg;36.50
-2018-04-02;boi;Boi em p� arroba;141.50
-2018-04-02;frango vivo;Pesquisa descontinuada (Frango vivo);0.00
-2018-04-02;erva-mate;Erva-mate folha em barranco arroba;13.89
-2018-04-02;su�no;Su�no em p� tipo carne n�o integrado kg;2.86
-2018-04-02;vaca;Vaca em p� (padr�o corte) arroba;129.40
-2018-04-02;caf� beneficiado;Caf� beneficiado bebida dura - tipo 6 sc 60 Kg;397.55
-2018-04-02;mandioca;Mandioca padr�o de amido 580 g tonelada;541.98
-"2018-04-02";"algod�o";"Pesquisa descontinuada (Algod�o)";"0.00"
-"2018-04-02";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";"0.00"
-"2018-04-02";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";"45.06"
-"2018-04-02";"feij�o carioca";"Feij�o Carioca tipo 1 sc 60 Kg";"84.34"
-"2018-04-02";"feij�o preto";"Feij�o preto tipo 1 sc 60 Kg";"102.96"
-"2018-04-02";"milho";"Milho amarelo tipo 1 sc 60 Kg";"31.45"
-"2018-04-02";"soja";"Soja industrial tipo 1 sc 60 Kg";"71.84"
-"2018-04-02";"trigo";"Trigo p�o PH 78 sc 60 Kg";"36.50"
-"2018-04-02";"boi";"Boi em p� arroba";"141.50"
-"2018-04-02";"frango vivo";"Pesquisa descontinuada (Frango vivo)";"0.00"
-"2018-04-02";"erva-mate";"Erva-mate folha em barranco arroba";"13.89"
-"2018-04-02";"su�no";"Su�no em p� tipo carne n�o integrado kg";"2.86"
-"2018-04-02";"vaca";"Vaca em p� (padr�o corte) arroba";"129.40"
-"2018-04-02";"caf� beneficiado";"Caf� beneficiado bebida dura - tipo 6 sc 60 Kg";"397.55"
-"2018-04-02";"mandioca";"Mandioca padr�o de amido 580 g tonelada";"541.98"
-2018-04-02;algod�o;Pesquisa descontinuada (Algod�o);0.0
-2018-04-02;arroz em casca;Pesquisa descontinuada (Arroz em casca sequeiro);0.0
-2018-04-02;arroz agulhinha;Arroz Agulhinha em casca tipo 1 sc 60 Kg;45.06
-2018-04-02;feij�o carioca;Feij�o Carioca tipo 1 sc 60 Kg;84.34
-2018-04-02;feij�o preto;Feij�o preto tipo 1 sc 60 Kg;102.96
-2018-04-02;milho;Milho amarelo tipo 1 sc 60 Kg;31.45
-2018-04-02;soja;Soja industrial tipo 1 sc 60 Kg;71.84
-2018-04-02;trigo;Trigo p�o PH 78 sc 60 Kg;36.5
-2018-04-02;boi;Boi em p� arroba;141.5
-2018-04-02;frango vivo;Pesquisa descontinuada (Frango vivo);0.0
-2018-04-02;erva-mate;Erva-mate folha em barranco arroba;13.89
-2018-04-02;su�no;Su�no em p� tipo carne n�o integrado kg;2.86
-2018-04-02;vaca;Vaca em p� (padr�o corte) arroba;129.4
-2018-04-02;caf� beneficiado;Caf� beneficiado bebida dura - tipo 6 sc 60 Kg;397.55
-2018-04-02;mandioca;Mandioca padr�o de amido 580 g tonelada;541.98
+"2010-01-04";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-04";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.93
+"2010-01-04";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.0
+"2010-01-04";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";53.81
+"2010-01-04";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";54.7
+"2010-01-04";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.91
+"2010-01-04";"soja";"Soja industrial tipo 1 sc 60 Kg";40.22
+"2010-01-04";"trigo";"Trigo pão PH 78 sc 60 Kg";23.8
+"2010-01-04";"boi";"Boi em pé arroba";72.28
+"2010-01-04";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.6
+"2010-01-04";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-04";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-04";"vaca";"Vaca em pé (padrão corte) arroba";66.71
+"2010-01-04";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.48
+"2010-01-05";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-05";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.93
+"2010-01-05";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-05";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.58
+"2010-01-05";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.15
+"2010-01-05";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.87
+"2010-01-05";"soja";"Soja industrial tipo 1 sc 60 Kg";39.93
+"2010-01-05";"trigo";"Trigo pão PH 78 sc 60 Kg";23.99
+"2010-01-05";"boi";"Boi em pé arroba";72.51
+"2010-01-05";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-05";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-05";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-05";"vaca";"Vaca em pé (padrão corte) arroba";66.63
+"2010-01-05";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";222.28
+"2010-01-05";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-06";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-06";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.93
+"2010-01-06";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-06";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";56.39
+"2010-01-06";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";56.58
+"2010-01-06";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.89
+"2010-01-06";"soja";"Soja industrial tipo 1 sc 60 Kg";39.85
+"2010-01-06";"trigo";"Trigo pão PH 78 sc 60 Kg";24.1
+"2010-01-06";"boi";"Boi em pé arroba";73.11
+"2010-01-06";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-06";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-06";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-06";"vaca";"Vaca em pé (padrão corte) arroba";66.98
+"2010-01-06";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";225.15
+"2010-01-06";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-07";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-07";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.93
+"2010-01-07";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-07";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.84
+"2010-01-07";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.13
+"2010-01-07";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.93
+"2010-01-07";"soja";"Soja industrial tipo 1 sc 60 Kg";39.72
+"2010-01-07";"trigo";"Trigo pão PH 78 sc 60 Kg";24.1
+"2010-01-07";"boi";"Boi em pé arroba";73.1
+"2010-01-07";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-07";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-07";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-07";"vaca";"Vaca em pé (padrão corte) arroba";67.1
+"2010-01-07";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";228.71
+"2010-01-07";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-08";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-08";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";35.51
+"2010-01-08";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-08";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.53
+"2010-01-08";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.14
+"2010-01-08";"milho";"Milho amarelo tipo 1 sc 60 Kg";15.02
+"2010-01-08";"soja";"Soja industrial tipo 1 sc 60 Kg";39.74
+"2010-01-08";"trigo";"Trigo pão PH 78 sc 60 Kg";24.03
+"2010-01-08";"boi";"Boi em pé arroba";73.16
+"2010-01-08";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-08";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-08";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-08";"vaca";"Vaca em pé (padrão corte) arroba";67.07
+"2010-01-08";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";228.99
+"2010-01-08";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-11";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-11";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.93
+"2010-01-11";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-11";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";57.06
+"2010-01-11";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.07
+"2010-01-11";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.77
+"2010-01-11";"soja";"Soja industrial tipo 1 sc 60 Kg";39.34
+"2010-01-11";"trigo";"Trigo pão PH 78 sc 60 Kg";24.03
+"2010-01-11";"boi";"Boi em pé arroba";72.96
+"2010-01-11";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-11";"erva-mate";"Erva-mate folha em barranco arroba";6.17
+"2010-01-11";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-11";"vaca";"Vaca em pé (padrão corte) arroba";67.12
+"2010-01-11";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.68
+"2010-01-11";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-12";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-12";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.49
+"2010-01-12";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-12";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";58.2
+"2010-01-12";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.87
+"2010-01-12";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.89
+"2010-01-12";"soja";"Soja industrial tipo 1 sc 60 Kg";39.03
+"2010-01-12";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-12";"boi";"Boi em pé arroba";73.22
+"2010-01-12";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-12";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-12";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-12";"vaca";"Vaca em pé (padrão corte) arroba";67.26
+"2010-01-12";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.35
+"2010-01-12";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-13";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-13";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";36.49
+"2010-01-13";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-13";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";58.25
+"2010-01-13";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.87
+"2010-01-13";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.84
+"2010-01-13";"soja";"Soja industrial tipo 1 sc 60 Kg";38.07
+"2010-01-13";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-13";"boi";"Boi em pé arroba";72.67
+"2010-01-13";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-13";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-13";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-13";"vaca";"Vaca em pé (padrão corte) arroba";66.96
+"2010-01-13";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.78
+"2010-01-13";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-14";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-14";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";37.25
+"2010-01-14";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-14";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";58.99
+"2010-01-14";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.27
+"2010-01-14";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.81
+"2010-01-14";"soja";"Soja industrial tipo 1 sc 60 Kg";37.65
+"2010-01-14";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-14";"boi";"Boi em pé arroba";72.38
+"2010-01-14";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-14";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-14";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-14";"vaca";"Vaca em pé (padrão corte) arroba";66.91
+"2010-01-14";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.2
+"2010-01-14";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-15";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-15";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-15";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-15";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";57.59
+"2010-01-15";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.27
+"2010-01-15";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.86
+"2010-01-15";"soja";"Soja industrial tipo 1 sc 60 Kg";37.13
+"2010-01-15";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-15";"boi";"Boi em pé arroba";72.53
+"2010-01-15";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-15";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-15";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-15";"vaca";"Vaca em pé (padrão corte) arroba";66.91
+"2010-01-15";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.34
+"2010-01-15";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-18";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-18";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-18";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-18";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";57.59
+"2010-01-18";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.49
+"2010-01-18";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.82
+"2010-01-18";"soja";"Soja industrial tipo 1 sc 60 Kg";37.0
+"2010-01-18";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-18";"boi";"Boi em pé arroba";72.58
+"2010-01-18";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-18";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-18";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-18";"vaca";"Vaca em pé (padrão corte) arroba";66.82
+"2010-01-18";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.2
+"2010-01-18";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-19";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-19";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-19";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-19";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";57.38
+"2010-01-19";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.42
+"2010-01-19";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.8
+"2010-01-19";"soja";"Soja industrial tipo 1 sc 60 Kg";36.89
+"2010-01-19";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-19";"boi";"Boi em pé arroba";72.43
+"2010-01-19";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.59
+"2010-01-19";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-19";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-01-19";"vaca";"Vaca em pé (padrão corte) arroba";66.49
+"2010-01-19";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.57
+"2010-01-19";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-20";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-20";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-20";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";34.75
+"2010-01-20";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";58.25
+"2010-01-20";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.7
+"2010-01-20";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.91
+"2010-01-20";"soja";"Soja industrial tipo 1 sc 60 Kg";36.92
+"2010-01-20";"trigo";"Trigo pão PH 78 sc 60 Kg";23.76
+"2010-01-20";"boi";"Boi em pé arroba";72.57
+"2010-01-20";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.6
+"2010-01-20";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-20";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-20";"vaca";"Vaca em pé (padrão corte) arroba";66.83
+"2010-01-20";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.86
+"2010-01-20";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-21";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-21";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-21";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-21";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.23
+"2010-01-21";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.82
+"2010-01-21";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.83
+"2010-01-21";"soja";"Soja industrial tipo 1 sc 60 Kg";36.56
+"2010-01-21";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-21";"boi";"Boi em pé arroba";72.53
+"2010-01-21";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-21";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-21";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-21";"vaca";"Vaca em pé (padrão corte) arroba";66.57
+"2010-01-21";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";230.06
+"2010-01-21";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-22";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-22";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-22";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-22";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.23
+"2010-01-22";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.82
+"2010-01-22";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.84
+"2010-01-22";"soja";"Soja industrial tipo 1 sc 60 Kg";36.72
+"2010-01-22";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-22";"boi";"Boi em pé arroba";72.49
+"2010-01-22";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-22";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-22";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-22";"vaca";"Vaca em pé (padrão corte) arroba";66.38
+"2010-01-22";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";230.06
+"2010-01-22";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-25";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-25";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-25";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-25";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.94
+"2010-01-25";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.79
+"2010-01-25";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.91
+"2010-01-25";"soja";"Soja industrial tipo 1 sc 60 Kg";36.31
+"2010-01-25";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-25";"boi";"Boi em pé arroba";72.53
+"2010-01-25";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-25";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-25";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-01-25";"vaca";"Vaca em pé (padrão corte) arroba";66.25
+"2010-01-25";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";230.2
+"2010-01-25";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-26";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-26";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-26";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-26";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.74
+"2010-01-26";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.4
+"2010-01-26";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.92
+"2010-01-26";"soja";"Soja industrial tipo 1 sc 60 Kg";36.29
+"2010-01-26";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-26";"boi";"Boi em pé arroba";72.52
+"2010-01-26";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-26";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-26";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-01-26";"vaca";"Vaca em pé (padrão corte) arroba";65.97
+"2010-01-26";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";230.2
+"2010-01-26";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-27";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-27";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-27";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-27";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.06
+"2010-01-27";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";56.87
+"2010-01-27";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.95
+"2010-01-27";"soja";"Soja industrial tipo 1 sc 60 Kg";36.26
+"2010-01-27";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-27";"boi";"Boi em pé arroba";72.66
+"2010-01-27";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-27";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-27";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-01-27";"vaca";"Vaca em pé (padrão corte) arroba";66.13
+"2010-01-27";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";230.2
+"2010-01-27";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-28";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-28";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.95
+"2010-01-28";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-28";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.68
+"2010-01-28";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";56.88
+"2010-01-28";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.82
+"2010-01-28";"soja";"Soja industrial tipo 1 sc 60 Kg";35.9
+"2010-01-28";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-01-28";"boi";"Boi em pé arroba";72.59
+"2010-01-28";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-01-28";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-28";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-01-28";"vaca";"Vaca em pé (padrão corte) arroba";65.9
+"2010-01-28";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";228.88
+"2010-01-28";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-01-29";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-01-29";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-01-29";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-01-29";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.67
+"2010-01-29";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";56.88
+"2010-01-29";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.83
+"2010-01-29";"soja";"Soja industrial tipo 1 sc 60 Kg";35.5
+"2010-01-29";"trigo";"Trigo pão PH 78 sc 60 Kg";23.77
+"2010-01-29";"boi";"Boi em pé arroba";72.66
+"2010-01-29";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-01-29";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-01-29";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-01-29";"vaca";"Vaca em pé (padrão corte) arroba";66.08
+"2010-01-29";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.82
+"2010-01-29";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-01";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-01";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.56
+"2010-02-01";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.74
+"2010-02-01";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.57
+"2010-02-01";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.3
+"2010-02-01";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.77
+"2010-02-01";"soja";"Soja industrial tipo 1 sc 60 Kg";35.44
+"2010-02-01";"trigo";"Trigo pão PH 78 sc 60 Kg";23.76
+"2010-02-01";"boi";"Boi em pé arroba";72.61
+"2010-02-01";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-02-01";"erva-mate";"Erva-mate folha em barranco arroba";6.18
+"2010-02-01";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-02-01";"vaca";"Vaca em pé (padrão corte) arroba";65.88
+"2010-02-01";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";229.33
+"2010-02-01";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-02";"algodão";"Pesquisa descontinuada (Algodão)";0.0
+"2010-02-02";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";0.0
+"2010-02-02";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";0.0
+"2010-02-02";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";0.0
+"2010-02-02";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";0.0
+"2010-02-02";"milho";"Milho amarelo tipo 1 sc 60 Kg";0.0
+"2010-02-02";"soja";"Soja industrial tipo 1 sc 60 Kg";0.0
+"2010-02-02";"trigo";"Trigo pão PH 78 sc 60 Kg";0.0
+"2010-02-02";"boi";"Boi em pé arroba";0.0
+"2010-02-02";"frango vivo";"Pesquisa descontinuada (Frango vivo)";0.0
+"2010-02-02";"erva-mate";"Erva-mate folha em barranco arroba";0.0
+"2010-02-02";"suíno";"Suíno em pé tipo carne não integrado kg";0.0
+"2010-02-02";"vaca";"Vaca em pé (padrão corte) arroba";0.0
+"2010-02-02";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";0.0
+"2010-02-02";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-03";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-03";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.82
+"2010-02-03";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.75
+"2010-02-03";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.44
+"2010-02-03";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.89
+"2010-02-03";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.76
+"2010-02-03";"soja";"Soja industrial tipo 1 sc 60 Kg";34.64
+"2010-02-03";"trigo";"Trigo pão PH 78 sc 60 Kg";23.78
+"2010-02-03";"boi";"Boi em pé arroba";72.66
+"2010-02-03";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-02-03";"erva-mate";"Erva-mate folha em barranco arroba";6.17
+"2010-02-03";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-02-03";"vaca";"Vaca em pé (padrão corte) arroba";66.08
+"2010-02-03";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";221.1
+"2010-02-03";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-04";"algodão";"Pesquisa descontinuada (Algodão)";0.0
+"2010-02-04";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";31.94
+"2010-02-04";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.91
+"2010-02-04";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";164.4
+"2010-02-04";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";89.31
+"2010-02-04";"milho";"Milho amarelo tipo 1 sc 60 Kg";17.73
+"2010-02-04";"soja";"Soja industrial tipo 1 sc 60 Kg";38.8
+"2010-02-04";"trigo";"Trigo pão PH 78 sc 60 Kg";25.59
+"2010-02-04";"boi";"Boi em pé arroba";86.39
+"2010-02-04";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.53
+"2010-02-04";"erva-mate";"Erva-mate folha em barranco arroba";6.28
+"2010-02-04";"suíno";"Suíno em pé tipo carne não integrado kg";2.41
+"2010-02-04";"vaca";"Vaca em pé (padrão corte) arroba";80.68
+"2010-02-04";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";270.48
+"2010-02-04";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-05";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-05";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.82
+"2010-02-05";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-05";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.22
+"2010-02-05";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.63
+"2010-02-05";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.57
+"2010-02-05";"soja";"Soja industrial tipo 1 sc 60 Kg";33.81
+"2010-02-05";"trigo";"Trigo pão PH 78 sc 60 Kg";23.79
+"2010-02-05";"boi";"Boi em pé arroba";72.68
+"2010-02-05";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-02-05";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-05";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-02-05";"vaca";"Vaca em pé (padrão corte) arroba";66.51
+"2010-02-05";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";221.1
+"2010-02-05";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-08";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-08";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.82
+"2010-02-08";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-08";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";50.84
+"2010-02-08";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.89
+"2010-02-08";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.51
+"2010-02-08";"soja";"Soja industrial tipo 1 sc 60 Kg";33.7
+"2010-02-08";"trigo";"Trigo pão PH 78 sc 60 Kg";23.95
+"2010-02-08";"boi";"Boi em pé arroba";72.68
+"2010-02-08";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-02-08";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-08";"suíno";"Suíno em pé tipo carne não integrado kg";1.95
+"2010-02-08";"vaca";"Vaca em pé (padrão corte) arroba";66.58
+"2010-02-08";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";221.1
+"2010-02-08";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-09";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-09";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.82
+"2010-02-09";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-09";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";50.84
+"2010-02-09";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";56.03
+"2010-02-09";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.43
+"2010-02-09";"soja";"Soja industrial tipo 1 sc 60 Kg";33.41
+"2010-02-09";"trigo";"Trigo pão PH 78 sc 60 Kg";24.11
+"2010-02-09";"boi";"Boi em pé arroba";72.67
+"2010-02-09";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-02-09";"erva-mate";"Erva-mate folha em barranco arroba";6.33
+"2010-02-09";"suíno";"Suíno em pé tipo carne não integrado kg";1.95
+"2010-02-09";"vaca";"Vaca em pé (padrão corte) arroba";66.69
+"2010-02-09";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.63
+"2010-02-09";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-10";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-10";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";40.18
+"2010-02-10";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-10";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";51.34
+"2010-02-10";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.89
+"2010-02-10";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.43
+"2010-02-10";"soja";"Soja industrial tipo 1 sc 60 Kg";33.38
+"2010-02-10";"trigo";"Trigo pão PH 78 sc 60 Kg";24.1
+"2010-02-10";"boi";"Boi em pé arroba";72.68
+"2010-02-10";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.62
+"2010-02-10";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-10";"suíno";"Suíno em pé tipo carne não integrado kg";1.95
+"2010-02-10";"vaca";"Vaca em pé (padrão corte) arroba";66.67
+"2010-02-10";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.63
+"2010-02-10";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-11";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-11";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-11";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-11";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.29
+"2010-02-11";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.9
+"2010-02-11";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.39
+"2010-02-11";"soja";"Soja industrial tipo 1 sc 60 Kg";33.49
+"2010-02-11";"trigo";"Trigo pão PH 78 sc 60 Kg";24.17
+"2010-02-11";"boi";"Boi em pé arroba";72.66
+"2010-02-11";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-02-11";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-11";"suíno";"Suíno em pé tipo carne não integrado kg";1.92
+"2010-02-11";"vaca";"Vaca em pé (padrão corte) arroba";66.72
+"2010-02-11";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.5
+"2010-02-11";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-12";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-12";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-12";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-12";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.25
+"2010-02-12";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";55.89
+"2010-02-12";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.4
+"2010-02-12";"soja";"Soja industrial tipo 1 sc 60 Kg";33.49
+"2010-02-12";"trigo";"Trigo pão PH 78 sc 60 Kg";24.17
+"2010-02-12";"boi";"Boi em pé arroba";72.73
+"2010-02-12";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.61
+"2010-02-12";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-12";"suíno";"Suíno em pé tipo carne não integrado kg";1.92
+"2010-02-12";"vaca";"Vaca em pé (padrão corte) arroba";66.67
+"2010-02-12";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.05
+"2010-02-12";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-15";"algodão";"Pesquisa descontinuada (Algodão)";""
+"2010-02-15";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";""
+"2010-02-15";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";""
+"2010-02-15";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";""
+"2010-02-15";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";""
+"2010-02-15";"milho";"Milho amarelo tipo 1 sc 60 Kg";""
+"2010-02-15";"soja";"Soja industrial tipo 1 sc 60 Kg";""
+"2010-02-15";"trigo";"Trigo pão PH 78 sc 60 Kg";""
+"2010-02-15";"boi";"Boi em pé arroba";""
+"2010-02-15";"frango vivo";"Pesquisa descontinuada (Frango vivo)";""
+"2010-02-15";"erva-mate";"Erva-mate folha em barranco arroba";""
+"2010-02-15";"suíno";"Suíno em pé tipo carne não integrado kg";""
+"2010-02-15";"vaca";"Vaca em pé (padrão corte) arroba";""
+"2010-02-15";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";""
+"2010-02-15";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-16";"algodão";"Pesquisa descontinuada (Algodão)";""
+"2010-02-16";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";""
+"2010-02-16";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";""
+"2010-02-16";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";""
+"2010-02-16";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";""
+"2010-02-16";"milho";"Milho amarelo tipo 1 sc 60 Kg";""
+"2010-02-16";"soja";"Soja industrial tipo 1 sc 60 Kg";""
+"2010-02-16";"trigo";"Trigo pão PH 78 sc 60 Kg";""
+"2010-02-16";"boi";"Boi em pé arroba";""
+"2010-02-16";"frango vivo";"Pesquisa descontinuada (Frango vivo)";""
+"2010-02-16";"erva-mate";"Erva-mate folha em barranco arroba";""
+"2010-02-16";"suíno";"Suíno em pé tipo carne não integrado kg";""
+"2010-02-16";"vaca";"Vaca em pé (padrão corte) arroba";""
+"2010-02-16";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";""
+"2010-02-16";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-17";"algodão";"Pesquisa descontinuada (Algodão)";""
+"2010-02-17";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";""
+"2010-02-17";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";""
+"2010-02-17";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";""
+"2010-02-17";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";""
+"2010-02-17";"milho";"Milho amarelo tipo 1 sc 60 Kg";""
+"2010-02-17";"soja";"Soja industrial tipo 1 sc 60 Kg";""
+"2010-02-17";"trigo";"Trigo pão PH 78 sc 60 Kg";""
+"2010-02-17";"boi";"Boi em pé arroba";""
+"2010-02-17";"frango vivo";"Pesquisa descontinuada (Frango vivo)";""
+"2010-02-17";"erva-mate";"Erva-mate folha em barranco arroba";""
+"2010-02-17";"suíno";"Suíno em pé tipo carne não integrado kg";""
+"2010-02-17";"vaca";"Vaca em pé (padrão corte) arroba";""
+"2010-02-17";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";""
+"2010-02-17";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-18";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-18";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-18";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.83
+"2010-02-18";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";52.08
+"2010-02-18";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.73
+"2010-02-18";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.45
+"2010-02-18";"soja";"Soja industrial tipo 1 sc 60 Kg";33.73
+"2010-02-18";"trigo";"Trigo pão PH 78 sc 60 Kg";24.17
+"2010-02-18";"boi";"Boi em pé arroba";72.83
+"2010-02-18";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-18";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-18";"suíno";"Suíno em pé tipo carne não integrado kg";1.93
+"2010-02-18";"vaca";"Vaca em pé (padrão corte) arroba";66.93
+"2010-02-18";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.05
+"2010-02-18";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-19";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-19";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-19";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.75
+"2010-02-19";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";53.34
+"2010-02-19";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.73
+"2010-02-19";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.35
+"2010-02-19";"soja";"Soja industrial tipo 1 sc 60 Kg";33.55
+"2010-02-19";"trigo";"Trigo pão PH 78 sc 60 Kg";24.1
+"2010-02-19";"boi";"Boi em pé arroba";73.01
+"2010-02-19";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-19";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-19";"suíno";"Suíno em pé tipo carne não integrado kg";1.93
+"2010-02-19";"vaca";"Vaca em pé (padrão corte) arroba";66.91
+"2010-02-19";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.05
+"2010-02-19";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-22";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-22";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.69
+"2010-02-22";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.75
+"2010-02-22";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.81
+"2010-02-22";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.14
+"2010-02-22";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.34
+"2010-02-22";"soja";"Soja industrial tipo 1 sc 60 Kg";33.54
+"2010-02-22";"trigo";"Trigo pão PH 78 sc 60 Kg";24.1
+"2010-02-22";"boi";"Boi em pé arroba";73.08
+"2010-02-22";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-22";"erva-mate";"Erva-mate folha em barranco arroba";6.13
+"2010-02-22";"suíno";"Suíno em pé tipo carne não integrado kg";1.93
+"2010-02-22";"vaca";"Vaca em pé (padrão corte) arroba";67.18
+"2010-02-22";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.05
+"2010-02-22";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-23";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-23";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-23";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.32
+"2010-02-23";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.63
+"2010-02-23";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";57.9
+"2010-02-23";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.32
+"2010-02-23";"soja";"Soja industrial tipo 1 sc 60 Kg";33.77
+"2010-02-23";"trigo";"Trigo pão PH 78 sc 60 Kg";24.26
+"2010-02-23";"boi";"Boi em pé arroba";73.07
+"2010-02-23";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-23";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-02-23";"suíno";"Suíno em pé tipo carne não integrado kg";1.94
+"2010-02-23";"vaca";"Vaca em pé (padrão corte) arroba";67.03
+"2010-02-23";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.85
+"2010-02-23";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-24";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-24";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-24";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.32
+"2010-02-24";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.63
+"2010-02-24";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.15
+"2010-02-24";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.36
+"2010-02-24";"soja";"Soja industrial tipo 1 sc 60 Kg";33.52
+"2010-02-24";"trigo";"Trigo pão PH 78 sc 60 Kg";24.05
+"2010-02-24";"boi";"Boi em pé arroba";73.11
+"2010-02-24";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-24";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-02-24";"suíno";"Suíno em pé tipo carne não integrado kg";1.96
+"2010-02-24";"vaca";"Vaca em pé (padrão corte) arroba";67.06
+"2010-02-24";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.69
+"2010-02-24";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-25";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-25";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-25";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";37.32
+"2010-02-25";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";53.38
+"2010-02-25";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.64
+"2010-02-25";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.16
+"2010-02-25";"soja";"Soja industrial tipo 1 sc 60 Kg";33.52
+"2010-02-25";"trigo";"Trigo pão PH 78 sc 60 Kg";24.05
+"2010-02-25";"boi";"Boi em pé arroba";73.15
+"2010-02-25";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-25";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-02-25";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-02-25";"vaca";"Vaca em pé (padrão corte) arroba";67.24
+"2010-02-25";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.69
+"2010-02-25";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-02-26";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-02-26";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-02-26";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";38.0
+"2010-02-26";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";53.38
+"2010-02-26";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";58.64
+"2010-02-26";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.16
+"2010-02-26";"soja";"Soja industrial tipo 1 sc 60 Kg";33.3
+"2010-02-26";"trigo";"Trigo pão PH 78 sc 60 Kg";24.05
+"2010-02-26";"boi";"Boi em pé arroba";72.96
+"2010-02-26";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-02-26";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-02-26";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-02-26";"vaca";"Vaca em pé (padrão corte) arroba";66.73
+"2010-02-26";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.69
+"2010-02-26";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-01";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-01";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";41.77
+"2010-03-01";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";38.0
+"2010-03-01";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";54.16
+"2010-03-01";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.18
+"2010-03-01";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.57
+"2010-03-01";"soja";"Soja industrial tipo 1 sc 60 Kg";34.59
+"2010-03-01";"trigo";"Trigo pão PH 78 sc 60 Kg";24.05
+"2010-03-01";"boi";"Boi em pé arroba";73.66
+"2010-03-01";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.57
+"2010-03-01";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-01";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-03-01";"vaca";"Vaca em pé (padrão corte) arroba";67.44
+"2010-03-01";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.69
+"2010-03-01";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-02";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-02";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-02";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";38.0
+"2010-03-02";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.48
+"2010-03-02";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.68
+"2010-03-02";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.18
+"2010-03-02";"soja";"Soja industrial tipo 1 sc 60 Kg";33.12
+"2010-03-02";"trigo";"Trigo pão PH 78 sc 60 Kg";24.05
+"2010-03-02";"boi";"Boi em pé arroba";73.12
+"2010-03-02";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.56
+"2010-03-02";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-02";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-03-02";"vaca";"Vaca em pé (padrão corte) arroba";66.88
+"2010-03-02";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";218.69
+"2010-03-02";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-03";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-03";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-03";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";38.17
+"2010-03-03";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.99
+"2010-03-03";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.92
+"2010-03-03";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.2
+"2010-03-03";"soja";"Soja industrial tipo 1 sc 60 Kg";33.08
+"2010-03-03";"trigo";"Trigo pão PH 78 sc 60 Kg";24.02
+"2010-03-03";"boi";"Boi em pé arroba";73.17
+"2010-03-03";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.56
+"2010-03-03";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-03";"suíno";"Suíno em pé tipo carne não integrado kg";1.97
+"2010-03-03";"vaca";"Vaca em pé (padrão corte) arroba";66.9
+"2010-03-03";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";223.83
+"2010-03-03";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-04";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-04";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-04";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-04";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.28
+"2010-03-04";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.87
+"2010-03-04";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.25
+"2010-03-04";"soja";"Soja industrial tipo 1 sc 60 Kg";32.86
+"2010-03-04";"trigo";"Trigo pão PH 78 sc 60 Kg";23.91
+"2010-03-04";"boi";"Boi em pé arroba";73.36
+"2010-03-04";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.56
+"2010-03-04";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-04";"suíno";"Suíno em pé tipo carne não integrado kg";1.99
+"2010-03-04";"vaca";"Vaca em pé (padrão corte) arroba";67.07
+"2010-03-04";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";223.83
+"2010-03-04";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-05";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-05";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-05";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-05";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";55.28
+"2010-03-05";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";59.89
+"2010-03-05";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.24
+"2010-03-05";"soja";"Soja industrial tipo 1 sc 60 Kg";32.35
+"2010-03-05";"trigo";"Trigo pão PH 78 sc 60 Kg";23.88
+"2010-03-05";"boi";"Boi em pé arroba";73.44
+"2010-03-05";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.56
+"2010-03-05";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-05";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-03-05";"vaca";"Vaca em pé (padrão corte) arroba";67.11
+"2010-03-05";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-05";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-08";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-08";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-08";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-08";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";56.32
+"2010-03-08";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";60.18
+"2010-03-08";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.23
+"2010-03-08";"soja";"Soja industrial tipo 1 sc 60 Kg";32.09
+"2010-03-08";"trigo";"Trigo pão PH 78 sc 60 Kg";23.88
+"2010-03-08";"boi";"Boi em pé arroba";73.51
+"2010-03-08";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.56
+"2010-03-08";"erva-mate";"Erva-mate folha em barranco arroba";6.07
+"2010-03-08";"suíno";"Suíno em pé tipo carne não integrado kg";1.98
+"2010-03-08";"vaca";"Vaca em pé (padrão corte) arroba";67.41
+"2010-03-08";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-08";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-09";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-09";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.33
+"2010-03-09";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-09";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";58.75
+"2010-03-09";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";60.8
+"2010-03-09";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.19
+"2010-03-09";"soja";"Soja industrial tipo 1 sc 60 Kg";32.06
+"2010-03-09";"trigo";"Trigo pão PH 78 sc 60 Kg";23.88
+"2010-03-09";"boi";"Boi em pé arroba";73.51
+"2010-03-09";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.55
+"2010-03-09";"erva-mate";"Erva-mate folha em barranco arroba";6.02
+"2010-03-09";"suíno";"Suíno em pé tipo carne não integrado kg";2.0
+"2010-03-09";"vaca";"Vaca em pé (padrão corte) arroba";67.36
+"2010-03-09";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-09";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-10";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-10";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.69
+"2010-03-10";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-10";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";65.3
+"2010-03-10";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";61.48
+"2010-03-10";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.12
+"2010-03-10";"soja";"Soja industrial tipo 1 sc 60 Kg";31.68
+"2010-03-10";"trigo";"Trigo pão PH 78 sc 60 Kg";23.88
+"2010-03-10";"boi";"Boi em pé arroba";73.94
+"2010-03-10";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.55
+"2010-03-10";"erva-mate";"Erva-mate folha em barranco arroba";5.96
+"2010-03-10";"suíno";"Suíno em pé tipo carne não integrado kg";2.01
+"2010-03-10";"vaca";"Vaca em pé (padrão corte) arroba";67.41
+"2010-03-10";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-10";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-11";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-11";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.69
+"2010-03-11";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-11";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";68.22
+"2010-03-11";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";62.4
+"2010-03-11";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.11
+"2010-03-11";"soja";"Soja industrial tipo 1 sc 60 Kg";31.66
+"2010-03-11";"trigo";"Trigo pão PH 78 sc 60 Kg";23.64
+"2010-03-11";"boi";"Boi em pé arroba";73.98
+"2010-03-11";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.55
+"2010-03-11";"erva-mate";"Erva-mate folha em barranco arroba";5.96
+"2010-03-11";"suíno";"Suíno em pé tipo carne não integrado kg";2.01
+"2010-03-11";"vaca";"Vaca em pé (padrão corte) arroba";67.63
+"2010-03-11";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-11";"mandioca";"Mandioca padrão de amido 580 g tonelada";""
+"2010-03-12";"algodão";"Pesquisa descontinuada (Algodão)";15.0
+"2010-03-12";"arroz em casca";"Pesquisa descontinuada (Arroz em casca sequeiro)";39.45
+"2010-03-12";"arroz agulhinha";"Arroz Agulhinha em casca tipo 1 sc 60 Kg";36.39
+"2010-03-12";"feijão carioca";"Feijão Carioca tipo 1 sc 60 Kg";68.22
+"2010-03-12";"feijão preto";"Feijão preto tipo 1 sc 60 Kg";62.39
+"2010-03-12";"milho";"Milho amarelo tipo 1 sc 60 Kg";14.14
+"2010-03-12";"soja";"Soja industrial tipo 1 sc 60 Kg";31.4
+"2010-03-12";"trigo";"Trigo pão PH 78 sc 60 Kg";23.64
+"2010-03-12";"boi";"Boi em pé arroba";73.96
+"2010-03-12";"frango vivo";"Pesquisa descontinuada (Frango vivo)";1.55
+"2010-03-12";"erva-mate";"Erva-mate folha em barranco arroba";5.96
+"2010-03-12";"suíno";"Suíno em pé tipo carne não integrado kg";2.01
+"2010-03-12";"vaca";"Vaca em pé (padrão corte) arroba";67.58
+"2010-03-12";"café beneficiado";"Café beneficiado bebida dura - tipo 6 sc 60 Kg";220.35
+"2010-03-12";"mandioca";"Mandioca padrão de amido 580 g tonelada";""

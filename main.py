@@ -5,68 +5,83 @@ import datetime
 from requests_html import HTMLSession
 
 
-def get_dados_from_data(data_referencia, no_produto, tr_desc):
-    data_referencia_formatada = data_referencia.strftime('%Y-%m-%d')
-    url = 'http://celepar7.pr.gov.br/sima/cotdiat.asp?data='+data_referencia_formatada
+def get_ultima_data_disponivel_base(path_file_base):
+    with open(path_file_base, 'r', encoding='utf8') as f:
+        for row in reversed(list(csv.reader(f))):
+            data = row[0].split(';')[0]
+            if data in ['Data', 'dt_referencia']:
+                return None
+            return datetime.datetime.strptime(data[0:10], '%Y-%m-%d').date()
+
+
+def get_dados_from_page(data_referencia):
+    url = 'http://celepar7.pr.gov.br/sima/cotdiat.asp'
+    params = {
+        'data': data_referencia.strftime('%Y-%m-%d')
+    }
 
     session = HTMLSession()
-    response = session.get(url)
+    response = session.get(url, params=params)
     
     if (response.status_code != 200):
+        get_dados_from_page(data_referencia)
         print(response.status_code)
-        exit()
-
-    return extract_data(response, data_referencia, no_produto, tr_desc)
+    return response
 
 
 def extract_data(response, data_referencia, no_produto, tr_desc):
     tabela = response.html.find('.mytable', first=True)
     try:
         vr_real = tabela.xpath(".//tr["+str(tr_desc+1)+"]/td[21]/font/text()")[0].strip()
-    except IndexError:
+        vr_real = float(vr_real)
+    except Exception:
         vr_real = None
 
     return {
         'dt_referencia': data_referencia,
         'no_produto': no_produto,
         'no_indicador': tabela.xpath(".//tr["+str(tr_desc)+"]/td[1]/font/text()")[0].strip().replace('  ',' '),
-        'vr_real': float(vr_real)
+        'vr_real': vr_real
     }
 
 
 def main():
-    data_referencia = datetime.date.today()
-    #start_date = datetime.date(2018, 3, 27)
-    start_date = data_referencia
-    end_date = data_referencia + datetime.timedelta(1)
-    dates_2010_2018 = [ start_date + datetime.timedelta(n) for n in range(int ((end_date - start_date).days))]
-
     base_file_name = 'precos_deral_base.csv'
     path_file_base = os.path.join('bases', base_file_name)
+    ultima_data_base = get_ultima_data_disponivel_base(path_file_base)
+    print('última data base:', ultima_data_base)
+
+    # base inicial com dados desde 2010
+    start_date = ultima_data_base
+    end_date = datetime.date.today()
+    dates_2010_2018 = [ start_date + datetime.timedelta(n) for n in range(int ((end_date - start_date).days))]
 
     for data_referencia in dates_2010_2018:
         print(data_referencia)
+        
+        # só insere datas que ainda não estão na base
+        if ultima_data_base >= data_referencia:
+            continue
+
+        # se não é dia de semana        
         if (data_referencia.weekday() > 4):
             continue
 
+        rows = []
+        
+        response = get_dados_from_page(data_referencia)
+
         for index, dado in enumerate(get_dados()):
-            dados_site = get_dados_from_data(data_referencia, dado['no_produto'], dado['tr_desc'])
+            dados_site = extract_data(response, data_referencia, dado['no_produto'], dado['tr_desc'])
+            rows.append(dados_site)
 
-            if dados_site['vr_real'] is '':
-                print('dados não disponíveis', dado['no_produto'])
-                continue
-
-            if dados_site['vr_real'] is None:
-                print('dados não disponíveis', dado['no_produto'])
-                continue
-
+        for row in rows:
             # faz o append no csv da base
-            with open(path_file_base, 'a', newline='') as baseFile:
+            with open(path_file_base, 'a', newline='', encoding='utf8') as baseFile:            
                 fieldnames = ['dt_referencia', 'no_produto', 'no_indicador', 'vr_real']
                 writer = csv.DictWriter(baseFile, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONNUMERIC)
-                row_inserted = dados_site
-                writer.writerow(row_inserted)
-                print('Dado inserido no arquivo base:', path_file_base, row_inserted)
+                writer.writerow(row)
+                # print('Dado inserido no arquivo base:', path_file_base, row_inserted)
 
     print('Registros deral importados com sucesso')
     return True
