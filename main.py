@@ -10,7 +10,7 @@ def get_ultima_data_disponivel_base(path_file_base):
         for row in reversed(list(csv.reader(f))):
             data = row[0].split(';')[0]
             if data in ['Data', 'dt_referencia']:
-                return None
+                return datetime.date(2010, 1, 1)
             return datetime.datetime.strptime(data[0:10], '%Y-%m-%d').date()
 
 
@@ -53,6 +53,7 @@ def main():
 
     # base inicial com dados desde 2010
     start_date = ultima_data_base
+    #start_date = datetime.date(2010, 1, 1)
     end_date = datetime.date.today()
     dates_2010_2018 = [ start_date + datetime.timedelta(n) for n in range(int ((end_date - start_date).days))]
 
@@ -92,6 +93,7 @@ def get_dados():
         { 'no_produto': 'algodão', 'tr_desc': 2},
         { 'no_produto': 'arroz em casca', 'tr_desc': 5},
         { 'no_produto': 'arroz agulhinha', 'tr_desc': 8},
+        { 'no_produto': 'café em coco', 'tr_desc': 11},
         { 'no_produto': 'feijão carioca', 'tr_desc': 14},
         { 'no_produto': 'feijão preto', 'tr_desc': 17},
         { 'no_produto': 'milho', 'tr_desc': 20},
