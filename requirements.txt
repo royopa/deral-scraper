@@ -1,5 +1,4 @@
 pipenv
-request
 pandas
 tqdm
 requests
@@ -11,3 +10,4 @@ flask_script
 xlsxwriter
 requests_html
 wget
+bizdays

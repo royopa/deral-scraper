@@ -3,15 +3,7 @@ import csv
 import os
 import datetime
 from requests_html import HTMLSession
-
-
-def get_ultima_data_disponivel_base(path_file_base):
-    with open(path_file_base, 'r', encoding='utf8') as f:
-        for row in reversed(list(csv.reader(f))):
-            data = row[0].split(';')[0]
-            if data in ['Data', 'dt_referencia']:
-                return datetime.date(2010, 1, 1)
-            return datetime.datetime.strptime(data[0:10], '%Y-%m-%d').date()
+import utils
 
 
 def get_dados_from_page(data_referencia):
@@ -48,7 +40,7 @@ def extract_data(response, data_referencia, no_produto, tr_desc):
 def main():
     base_file_name = 'precos_deral_base.csv'
     path_file_base = os.path.join('bases', base_file_name)
-    ultima_data_base = get_ultima_data_disponivel_base(path_file_base)
+    ultima_data_base = utils.get_ultima_data_disponivel_base(path_file_base)
     print('última data base:', ultima_data_base)
 
     # base inicial com dados desde 2010
@@ -65,7 +57,7 @@ def main():
             continue
 
         # se não é dia de semana        
-        if (data_referencia.weekday() > 4):
+        if not utils.isbizday(data_referencia):
             continue
 
         rows = []
@@ -73,6 +65,7 @@ def main():
         response = get_dados_from_page(data_referencia)
 
         for index, dado in enumerate(get_dados()):
+            index
             dados_site = extract_data(response, data_referencia, dado['no_produto'], dado['tr_desc'])
             rows.append(dados_site)
 
