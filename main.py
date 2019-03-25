@@ -29,10 +29,15 @@ def extract_data(response, data_referencia, no_produto, tr_desc):
     except Exception:
         vr_real = None
 
+    try:
+        no_indicador = tabela.xpath(".//tr["+str(tr_desc)+"]/td[1]/font/text()")[0].strip().replace('  ',' ')
+    except Exception:
+        no_indicador = ''
+
     return {
         'dt_referencia': data_referencia,
         'no_produto': no_produto,
-        'no_indicador': tabela.xpath(".//tr["+str(tr_desc)+"]/td[1]/font/text()")[0].strip().replace('  ',' '),
+        'no_indicador': no_indicador,
         'vr_real': vr_real
     }
 
